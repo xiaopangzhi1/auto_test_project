@@ -1,0 +1,13 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-8.4.2, pluggy-1.6.0 -- D:\\project\test\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.2', 'Platform': 'Windows-11-10.0.22000-SP0', 'Packages': {'pytest': '8.4.2', 'pluggy': '1.6.0'}, 'Plugins': {'allure-pytest': '2.15.3', 'html': '4.2.0', 'metadata': '3.1.1', 'ordering': '0.6', 'rerunfailures': '16.3', 'xdist': '3.8.0'}}
+rootdir: D:\OneDrive\\΢\wb_auto_test\android_auto_test
+configfile: pytest.ini
+plugins: allure-pytest-2.15.3, html-4.2.0, metadata-3.1.1, ordering-0.6, rerunfailures-16.3, xdist-3.8.0
+collecting ... collected 2 items
+
+testcases/testsettings/test_bt_switch.py::TestbtSwitch::test_bt_switch PASSED [ 50%]
+testcases/testsettings/test_wifi_switch.py::TestWifiSwitch::test_wifi_switch PASSED [100%]
+
+======================== 2 passed in 144.08s (0:02:24) ========================
